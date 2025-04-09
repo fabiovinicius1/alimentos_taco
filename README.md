@@ -15,7 +15,7 @@ A documentação da API [localhost:8080/docs](http://localhost:8080/docs/).
    ```bash
    cd alimentos_taco/
    ```
-4. Instale as Dependências
+4. Instale as Dependências (Necessário que o Dart esteja na versão 3.7.2)
    ```bash
    dart pub get
    ```
