@@ -1,0 +1,33 @@
+openapi:
+  title: alimentos_taco API
+  version: 1.0.0
+  description: API gerada automaticamente pelo Vaden.
+  enable: true
+
+postgres:
+  host: localhost
+  database: alimento_taco
+  port: 5432
+  username: postgres
+  password: senha123
+  ssl: disable
+server:
+  port: 8080
+  host: localhost
+
+
+storage:
+  provider: local  # opções: local, s3, firebase
+  local:
+    folder: './uploads'
+  s3:
+    bucket: 'meu-bucket'
+    region: 'us-east-1'
+    accessKey: 'sua_access_key'
+    secretKey: 'seu_secret_key'
+  firebase:
+    projectId: 'my-project'
+    apiKey: 'my_api'
+
+env:
+  mode: debug
