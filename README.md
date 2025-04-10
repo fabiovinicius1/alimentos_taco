@@ -15,13 +15,13 @@ A documentação da API [localhost:8080/docs](http://localhost:8080/docs/).
    ```bash
    cd alimentos_taco/
    ```
-4. Instale as Dependências (Necessário que o Dart esteja na versão 3.7.2)
+4. Instale as Dependências (Dart versão >= 3.7.2)
    ```bash
    dart pub get
    ```
 5. Execute o Scanner de Classes com build_runner
    ```bash
-   dart run build_runner watch
+   dart run build_runner build
    ```
 6. Executando o Projeto
    ```bash
